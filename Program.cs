@@ -1,3 +1,5 @@
+using EncryptionApi;
+
 var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
 var cipher = new CaesarCipher();
